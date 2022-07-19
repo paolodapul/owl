@@ -1,0 +1,21 @@
+{
+  "name": "web",
+  "version": "0.0.1",
+  "description": "Frontend application for Owl",
+  "author": "Paolo Dapul <paolodapultech@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@vitejs/plugin-react": "^2.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vite": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6"
+  },
+  "scripts": {
+    "dev": "vite"
+  }
+}
