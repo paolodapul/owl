@@ -2,7 +2,7 @@ module.exports = {
   root: true,
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: 'packages/*/tsconfig.json',
+    project: 'apps/*/tsconfig.json',
   },
   plugins: ['@typescript-eslint', 'import'],
   extends: [
@@ -10,6 +10,10 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:import/recommended',
     'plugin:import/typescript',
+    'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
+    'plugin:react-hooks/recommended',
+    'plugin:jsx-a11y/recommended'
   ],
   settings: {
     'import/parsers': {
