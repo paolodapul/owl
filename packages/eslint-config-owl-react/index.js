@@ -4,7 +4,7 @@ module.exports = {
   parserOptions: {
     project: 'apps/*/tsconfig.json',
   },
-  plugins: ['@typescript-eslint', 'import'],
+  plugins: ['@typescript-eslint', 'import', 'react'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
@@ -20,9 +20,15 @@ module.exports = {
       '@typescript-eslint/parser': ['.ts', '.tsx'],
     },
     'import/resolver': {
-      typescript: {
-        project: ['packages/*/tsconfig.json', 'apps/*/tsconfig.json'],
+      "typescript": {
+        "project": "apps/*/tsconfig.json"
       },
     },
+    'react': {
+      "version": "detect"
+    }
   },
+  env: {
+    "node": true
+  }
 }
