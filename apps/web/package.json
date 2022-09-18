@@ -18,7 +18,9 @@
     "eslint": "^8.20.0",
     "typescript": "^4.7.4",
     "vite-tsconfig-paths": "^3.5.0",
-    "eslint-config-owl-react": "*"
+    "eslint-config-owl-react": "*",
+    "eslint-config-owl": "*",
+    "tsconfig": "*"
   },
   "scripts": {
     "dev": "vite",

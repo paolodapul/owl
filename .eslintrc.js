@@ -1,3 +1,4 @@
-require('./packages/eslint-config-owl-node')
-require('./packages/eslint-config-owl-react')
-
+module.exports = {
+  root: true,
+  extends: ['owl'],
+}

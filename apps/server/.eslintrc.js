@@ -1,3 +1,4 @@
 module.exports = {
-  extends: ['owl-node']
+  root: true,
+  extends: ['owl-node'],
 }

@@ -1,3 +1,4 @@
 module.exports = {
-  "extends": ["owl-react"]
+  root: true,
+  extends: ['owl-react'],
 }
