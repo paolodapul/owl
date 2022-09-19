@@ -1,6 +1,8 @@
 {
   "extends": "./base.json",
   "compilerOptions": {
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "composite": true,
+    "allowSyntheticDefaultImports": true
   }
 }

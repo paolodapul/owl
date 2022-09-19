@@ -4,14 +4,17 @@
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": [
-        "dist/**"
-      ]
+      "outputs": ["dist/**"]
     },
     "test": {
       "dependsOn": ["build"],
       "outputs": [],
-      "inputs": ["src/**/*.tsx", "src/**/*.ts", "src/**/*.test.tsx", "src/**/*.test.ts"]
+      "inputs": [
+        "src/**/*.tsx",
+        "src/**/*.ts",
+        "src/**/*.test.tsx",
+        "src/**/*.test.ts"
+      ]
     },
     "lint": {
       "outputs": [],
@@ -22,6 +25,10 @@
       "outputs": []
     },
     "dev": {
+      "cache": false
+    },
+    "check-types": {
+      "outputs": [],
       "cache": false
     }
   }
