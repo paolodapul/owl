@@ -1,14 +1,18 @@
 {
   "name": "eslint-config-owl-node",
   "version": "0.0.1",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
+  "description": "ESLint config package for Node.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Paolo Dapul",
+  "scripts": {
+    "build": "tsc"
+  },
   "license": "MIT",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.32.0",
     "@typescript-eslint/parser": "^5.32.0",
-    "eslint": "^8.21.0"
+    "eslint": "^8.21.0",
+    "typescript": "^4.8.4"
   }
 }
