@@ -1,6 +1,5 @@
+// Todo: Fix import resolution
 // import { Home } from '@components/Home'
-
-import { useEffect, useState } from 'react'
 
 function App() {
   return (
@@ -9,7 +8,6 @@ function App() {
         Owl - a full-stack TypeScript web app starter template, made with ❤️ by
         @paolodapul
       </div>
-      {/* <Home /> */}
     </>
   )
 }
