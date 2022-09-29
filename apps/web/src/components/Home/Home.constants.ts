@@ -1,1 +1,1 @@
-export const HEADING = 'Home page'
+export const HEADING = 'Owl - a full-stack TypeScript web app starter template'
