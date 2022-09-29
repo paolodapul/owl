@@ -5,7 +5,10 @@
   "scripts": {
     "dev": "nodemon src/app.ts",
     "lint": "eslint . --ignore-path .gitignore --ext .ts",
-    "check-types": "tsc"
+    "check-types": "tsc",
+    "prettier": "prettier --ignore-path .gitignore \"**/*.+(ts|js|json)\"",
+    "format": "yarn prettier --write",
+    "check-format": "yarn prettier --list-different"
   },
   "dependencies": {
     "express": "^4.18.1"

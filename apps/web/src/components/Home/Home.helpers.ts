@@ -4,5 +4,5 @@ export function getCurrentDateToLocaleString() {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
-  })
+  });
 }

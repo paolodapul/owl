@@ -1,14 +1,13 @@
-
-import { HEADING } from './Home.constants'
-import { getCurrentDateToLocaleString } from './Home.helpers'
+import { HEADING } from './Home.constants';
+import { getCurrentDateToLocaleString } from './Home.helpers';
 
 function Home() {
   return (
     <>
-    <div>{HEADING}</div>
-    <p>Today is: {getCurrentDateToLocaleString()}</p>
+      <div>{HEADING}</div>
+      <p>Today is: {getCurrentDateToLocaleString()}</p>
     </>
-  )
-} 
+  );
+}
 
-export { Home }
+export { Home };

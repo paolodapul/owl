@@ -30,6 +30,9 @@
     "check-types": {
       "outputs": [],
       "cache": false
+    },
+    "format": {
+      "cache": false
     }
   }
 }
