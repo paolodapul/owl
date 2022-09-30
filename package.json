@@ -15,7 +15,8 @@
     "lint": "turbo run lint",
     "dev": "turbo run dev --parallel",
     "check-types": "turbo run check-types",
-    "format": "turbo run format"
+    "format": "turbo run format",
+    "deploy": "turbo run deploy"
   },
   "devDependencies": {
     "turbo": "^1.3.1",
