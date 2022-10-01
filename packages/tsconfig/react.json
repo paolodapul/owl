@@ -1,6 +1,7 @@
 {
   "extends": "./base.json",
   "compilerOptions": {
+    "module": "esnext",
     "jsx": "react-jsx",
     "composite": true,
     "allowSyntheticDefaultImports": true
