@@ -6,7 +6,8 @@
       "@components/*": ["src/components/*"],
       "@helpers/*": ["src/helpers/*"],
       "@hooks/*": ["src/hooks/*"]
-    }
+    },
+    "types": ["vitest/globals"]
   },
   "include": [".", "src/**/*.ts", "src/**/*.tsx", "vite.config.ts"]
 }
