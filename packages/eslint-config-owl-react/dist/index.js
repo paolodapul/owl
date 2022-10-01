@@ -12,4 +12,9 @@ module.exports = {
             version: 'detect',
         },
     },
+    env: {
+        browser: true,
+        amd: true,
+        node: true,
+    },
 };
