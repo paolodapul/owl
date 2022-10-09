@@ -1,7 +1,12 @@
 import { Home } from '@components/Home';
+import { QueryProvider } from '@contexts/QueryProvider';
 
 function App() {
-  return <Home />;
+  return (
+    <QueryProvider>
+      <Home />
+    </QueryProvider>
+  );
 }
 
 export { App };
