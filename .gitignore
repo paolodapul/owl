@@ -2,3 +2,10 @@ node_modules
 .turbo
 dist/**
 *.tsbuildinfo
+
+# 10212022 - Prisma has a bug with Yarn monorepos hence it generates a package-lock file
+# https://github.com/prisma/prisma/issues/15377
+# https://github.com/prisma/prisma/discussions/10488
+# Temporary fix is to ignore the package-lock.json file
+
+package-lock.json
