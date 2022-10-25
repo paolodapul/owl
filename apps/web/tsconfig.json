@@ -3,12 +3,13 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "@assets/*": ["src/assets/*"],
       "@components/*": ["src/components/*"],
       "@helpers/*": ["src/helpers/*"],
       "@hooks/*": ["src/hooks/*"],
       "@contexts/*": ["src/contexts/*"]
     },
-    "types": ["vitest/globals"]
+    "types": ["vitest/globals", "vite/client", "vite-plugin-svgr/client"]
   },
   "include": [".", "src/**/*.ts", "src/**/*.tsx", "vite.config.ts"]
 }

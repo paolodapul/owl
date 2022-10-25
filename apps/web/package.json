@@ -13,7 +13,8 @@
     "check-types": "tsc",
     "prettier": "prettier --ignore-path .gitignore \"**/*.+(ts|tsx|json)\"",
     "format": "yarn prettier --write",
-    "check-format": "yarn prettier --list-different"
+    "check-format": "yarn prettier --list-different",
+    "build": "vite build"
   },
   "dependencies": {
     "@tanstack/react-query": "^4.9.0",
@@ -22,7 +23,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "6",
-    "vite": "^3.1.4"
+    "vite": "^3.1.4",
+    "vite-plugin-svgr": "^2.2.2"
   },
   "devDependencies": {
     "@graphql-codegen/typescript-react-query": "^4.0.1",
